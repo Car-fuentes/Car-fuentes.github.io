@@ -1,0 +1,11 @@
+
+h1{background-color: red}
+.navbar{
+    background-color: rgb(184, 250, 219);
+    padding: 2rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-around;
+}
