@@ -1,11 +1,79 @@
-
-h1{background-color: red}
+body{
+    font-family: 'Lora', serif !important;
+}
+/**Barra de navegación*/
 .navbar{
-    background-color: rgb(184, 250, 219);
-    padding: 2rem;
+    background-color: rgb(10, 29, 139);
 }
 
 .navbar-collapse {
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
+
+.nav-link{
+    text-decoration:none;
+    color: white !important;
+    margin: 1rem, 5rem, 1rem, 5rem;
+}
+/**Mi presentasión*/
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal{
+    min-height:450px;
+    background-color: rgb(206, 245, 235);
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+.foto{ 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px #0b8b9c;
+    margin: 20px;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+   section h2{font-size: 1.5rem;
+        color:rgb(27, 22, 36)
+    }
+
+    /**Mi información personal*/
+
+    .info{
+        display:flex;
+        justify-content: center;
+        padding: 1rem;
+        }
+
+    .info .row div{
+        height: 100px;
+        background-color: rgb(145, 252, 252);
+        border: solid #152e9b;
+    }
+
+    .info .row p{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px 0px;
+    }
+    
+    .info i{
+        font-size: 2rem;
+        color: #152e9b;        
+    }
+
+    .info p{
+        color: black;
+        font-weight: bold;
+    }
+   
