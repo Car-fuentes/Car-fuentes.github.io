@@ -1,0 +1,139 @@
+/**Barra de navegación*/
+.navbar{
+    background-color: rgb(10, 29, 139);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-link{
+    text-decoration:none;
+    color: white !important;
+    margin: 1rem, 5rem, 1rem, 5rem;
+    font-family: 'Libre Baskerville', serif;
+}
+/**Mi presentasión*/
+section .personal{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.personal{
+    min-height:400px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    background-color: white;
+    width:100%
+
+}
+.foto{ 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid;
+    box-shadow: 8px 8px 8px rgb(159, 245, 156);;
+    margin: 20px;
+    }
+
+    h1{
+        font-size: 24px;
+        padding-top: 40px;
+        font-family: 'Alice', serif;
+    }
+
+   section h2{font-size: 1.5rem;
+            padding-bottom: 1px;
+    }
+
+    .subtitulo {
+        color:black;
+    }
+
+    .bienvenida{
+        color:rgb(10, 29, 139);
+        font-family: 'Alice', serif;
+        font-weight: bold;
+    }
+
+p{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+    /**Mi información personal*/
+
+    h3{
+        font-size: 10px;
+        font-family: 'Libre Baskerville', serif;
+        padding-bottom: 20px;
+    }
+
+    .info{
+        display:flex;
+        justify-content: center;
+        padding: 40px;
+        flex-direction: column;
+        align-items: center;
+        
+        }
+
+    .info .row div{
+        height: 100px;
+        background-color: white;
+        border: solid black 1px;
+        margin-top: 20px;
+        }
+
+    .info .row p{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px 0px;
+    }
+    
+    .info i{
+        font-size: 2rem;
+        color:rgb(10, 29, 139);        
+    }
+
+    .info p{
+        color: black;
+        font-weight: bold;
+        padding: 5px 5px 5px 5px;
+    }
+
+    /**Mi formación profesional*/
+
+    .formacion{
+        padding: 40px 5px 20px 5px;
+        text-align: center;
+    }
+        
+    .formacion .row div{
+        height: 220px;
+    }
+
+    p.titulo{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .paquete{
+        border: solid 1px white;
+        background-color: rgb(159, 245, 156);
+        padding: 30px 10px 5px 10px;
+        transition: all 0.2s ease-in;
+    }
+
+    .paquete:hover{
+        color: white;
+        background-color: rgb(40, 148, 124);
+
+    }
+
+    .formacion p{
+        padding: 8px 8px 5px 8px;
+    }
