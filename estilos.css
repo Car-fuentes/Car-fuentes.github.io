@@ -1,6 +1,6 @@
 /**Barra de navegación*/
 .navbar{
-    background-color: #785f99;
+    background-color: #5f1d85;
 }
 
 .navbar-collapse {
@@ -56,7 +56,7 @@ section .personal{
     }
 
     .bienvenida{
-        color:#7e5d8c;
+        color:#571a7a;
         font-family: 'Alice', serif;
         font-weight: bold;
     }
@@ -79,7 +79,7 @@ p{
         padding: 40px;
         flex-direction: column;   
         text-align: center;   
-        background-color:#f7ebf5;
+        background-color:#f3dbef;
         }
 
     #info .row div{
@@ -170,19 +170,45 @@ p{
         font-family: 'Alice', serif;
     }
     /**Mis fortalezas**/
-    .fortypen {
-        padding-top: 50px white;
-        margin-top: 20px;
-    }
     .fortaleza{
         text-align: center;
-        padding: 40px 5px 40px 5px;
-        background-color: #8df0e1;
-        
+        padding: 40px 40px 40px 40px;
+        background-color: #8df0e1;        
     }
 
+    .fortaleza p{
+        padding-right: 40px;
+        padding-left: 40px;
+
+    }
     .pensamiento{
         text-align: center;
+        padding: 40px 40px 40px 40px;
+        background-color: #78e4d4;
+    }
+
+    .pensamiento p{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    /**Footer**/
+    #contacto{
+        text-align: center;
         padding: 40px 5px 40px 5px;
-        background-color: #67c9cb;
+        background-color: #c8a8da;
+    }
+
+    h4{
+        color:#100216;
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+        font-size: 1px;
+    }
+
+    h5{
+        color:#e1c8ec;
+        font-family: 'Alice', serif;
+        font-weight: bold;
+        font-size: 4px;
     }
