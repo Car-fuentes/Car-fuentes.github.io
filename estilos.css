@@ -1,6 +1,6 @@
 /**Barra de navegación*/
 .navbar{
-    background-color: #5f1d85;
+    background-color: #984880;
 }
 
 .navbar-collapse {
@@ -20,8 +20,7 @@ section .personal{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .personal{
@@ -37,7 +36,7 @@ section .personal{
     height: 150px;
     border-radius: 50%;
     border: solid;
-    box-shadow: 5px 5px 5px #8cf7f7;
+    box-shadow: 5px 5px 5px #c2a3cd;
     margin: 20px;
     }
 
@@ -47,7 +46,7 @@ section .personal{
         font-family: 'Alice', serif;
     }
 
-   section h2{font-size: 1.5rem;
+   section h2{font-size: 25px;
             padding-bottom: 1px;
     }
 
@@ -56,7 +55,7 @@ section .personal{
     }
 
     .bienvenida{
-        color:#571a7a;
+        color:#6b0a53;
         font-family: 'Alice', serif;
         font-weight: bold;
     }
@@ -79,7 +78,7 @@ p{
         padding: 40px;
         flex-direction: column;   
         text-align: center;   
-        background-color:#f3dbef;
+        background-color:#e5fcf8;
         }
 
     #info .row div{
@@ -102,6 +101,11 @@ p{
         color:#1ad8c5;        
     }
 
+    h4{
+        font-size: 8px;
+        font-family: 'Libre Baskerville', serif;
+        padding-bottom: 20px;
+    }
 
     /**Mi formación profesional*/
 
@@ -112,6 +116,7 @@ p{
         
     #formacion .row div{
         height: 220px;
+        
     }
 
     p.titulo{
@@ -173,7 +178,7 @@ p{
     .fortaleza{
         text-align: center;
         padding: 40px 40px 40px 40px;
-        background-color: #8df0e1;        
+        background-color: #b5f5eb;        
     }
 
     .fortaleza p{
@@ -184,7 +189,7 @@ p{
     .pensamiento{
         text-align: center;
         padding: 40px 40px 40px 40px;
-        background-color: #78e4d4;
+        background-color: #8df0e1;
     }
 
     .pensamiento p{
@@ -199,16 +204,16 @@ p{
         background-color: #c8a8da;
     }
 
-    h4{
+    h5{
         color:#100216;
         font-family: 'Libre Baskerville', serif;
         font-weight: bold;
-        font-size: 1px;
+        font-size: 2px;
     }
 
-    h5{
+    h6{
         color:#e1c8ec;
         font-family: 'Alice', serif;
         font-weight: bold;
-        font-size: 4px;
+        font-size: 2px;
     }
