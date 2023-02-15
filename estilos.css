@@ -1,6 +1,5 @@
-/**Barra de navegación*/
 .navbar{
-    background-color: #984880;
+    background-color: #35244d;
 }
 
 .navbar-collapse {
@@ -12,7 +11,8 @@
     text-decoration:none;
     color: whitesmoke !important; 
     margin: 1rem, 5rem, 1rem, 5rem;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Alice', serif;
+    font-size: 20px !important;
 }
 
 /**Mi presentasión*/
@@ -24,13 +24,14 @@ section .personal{
 }
 
 .personal{
-    min-height:400px;
+    min-height:480px;
     text-align: center;
-    font-family: 'Lora', serif;
-    background-color: white;
-    width:100%
-
+    font-family: 'Lobster', cursive;
+    background: rgb(234,210,223);
+    background: radial-gradient(circle, rgba(234,210,223,1)0%, rgba(200,168,218,1)50%, rgba(167,102,170,1)100%);
+    width:100%;
 }
+
 .foto{ 
     width: 150px;
     height: 150px;
@@ -40,24 +41,30 @@ section .personal{
     margin: 20px;
     }
 
-    h1{
-        font-size: 24px;
-        padding-top: 40px;
-        font-family: 'Alice', serif;
+   section h1{
+        color: black;
+        font-family: 'Great Vibes', cursive;
+        font-weight: bold;
+        font-size: 55px;
+        padding-top: 60px;
     }
 
-   section h2{font-size: 25px;
-            padding-bottom: 1px;
+   section h2{
+        font-size: 28px;
+        padding-bottom: 1px;
     }
 
     .subtitulo {
         color:black;
+        font-family: 'Lobster', cursive;
     }
 
     .bienvenida{
         color:#6b0a53;
-        font-family: 'Alice', serif;
+        font-family: 'Great Vibes', cursive;
         font-weight: bold;
+        font-size: 40px;
+        padding-top: 10px;
     }
 
 p{
@@ -67,9 +74,12 @@ p{
     /**Mi información personal*/
 
     h3{
-        font-size: 10px;
-        font-family: 'Libre Baskerville', serif;
+        font-size: 18px;
+        font-family: 'Lobster', cursive;
         padding-bottom: 20px;
+        text-decoration: underline;
+        text-decoration-color: rgb(68, 68, 68);
+        text-decoration-thickness: 2px;
     }
 
     #info{
@@ -78,7 +88,7 @@ p{
         padding: 40px;
         flex-direction: column;   
         text-align: center;   
-        background-color:#e5fcf8;
+        background-color:#b3c4ba;
         }
 
     #info .row div{
@@ -90,27 +100,53 @@ p{
 
     #info p{
         font-size: 15px;
-        font-weight: bold;
         margin: 10px 0px;
         color: black;    
         padding: 5px 2px 5px 2px;
+        font-family: 'Lora', serif;
     }
     
     #info i{
         font-size: 2rem;
-        color:#1ad8c5;        
+        color:#a3107e;  
+        padding-top: 15px;      
     }
 
     h4{
-        font-size: 8px;
-        font-family: 'Libre Baskerville', serif;
+        font-size: 12px;
+        font-family: 'Lobster', cursive;
         padding-bottom: 20px;
+        text-decoration: underline;
+        text-decoration-color: rgb(68, 68, 68);
+        text-decoration-thickness: 1px;
     }
+        /**Mis fortalezas**/
+        .fortaleza{
+            text-align: center;
+            padding: 40px 40px 40px 40px;
+            background-color: #ccd3cf;        
+        }
+    
+        .fortaleza p{
+            padding-right: 40px;
+            padding-left: 40px;
+    
+        }
+        .pensamiento{
+            text-align: center;
+            padding: 40px 40px 40px 40px;
+            background-color: #e4e4e4;
+        }
+    
+        .pensamiento p{
+            padding-right: 40px;
+            padding-left: 40px;
+        }
 
     /**Mi formación profesional*/
 
     #formacion{
-        padding: 40px 5px 40px 5px;
+        padding: 50px 5px 50px 5px;
         text-align: center;
     }
         
@@ -126,7 +162,7 @@ p{
     }
 
     .paquete{
-        border: solid 5px #8e7ca6;
+        border: solid 5px rgba(167,102,170,1);
         background-color: #f7ebf5;
         padding: 30px 10px 5px 10px;
         transition: all 0.2s ease-in;
@@ -135,7 +171,7 @@ p{
 
     .paquete:hover{
         color: white;
-        background-color: #0da2a5;
+        background-color: #0d7c7e;
         border: solid 5px #67c9cb;
 
     }
@@ -146,24 +182,32 @@ p{
 
     /**Mis experiencias*/
     .experiencias{
-        padding: 40px 1px 20px 1px;
+        padding: 40px 1px 40px 1px;
         text-align: center; 
-        background-color:#e3faf6;
+        background-color:whitesmoke;
+        
     }
 
     .experiencia-contenedor{
         padding-top: 10px;
-        margin-bottom: 10px
+        margin-bottom: 10px;
     }
 
 
     .cada-experiencia{
         border: solid #03888f;
-        height: 285px; 
+        min-height: 280px; 
         margin-bottom: 20px;  
-        border-radius: 2%;  
-        background-color: white;   
+        border-radius: 10px;  
+        background-color: white; 
+        transition: 0.5s;
     }
+
+    .cada-experiencia:hover{
+        box-shadow: 5px 5px 10px #565656, -3px -3px 10px #8a8a8a;
+    }
+
+
 
     .cada-experiencia i{
         color: #67c9cb;
@@ -174,36 +218,42 @@ p{
         font-size:20px;
         font-family: 'Alice', serif;
     }
-    /**Mis fortalezas**/
-    .fortaleza{
-        text-align: center;
-        padding: 40px 40px 40px 40px;
-        background-color: #b5f5eb;        
-    }
-
-    .fortaleza p{
-        padding-right: 40px;
-        padding-left: 40px;
-
-    }
-    .pensamiento{
-        text-align: center;
-        padding: 40px 40px 40px 40px;
-        background-color: #8df0e1;
-    }
-
-    .pensamiento p{
-        padding-right: 40px;
-        padding-left: 40px;
-    }
-
     /**Footer**/
-    #contacto{
+    #pie{
         text-align: center;
-        padding: 40px 5px 40px 5px;
+        padding: 40px 5px 5px 5px;
         background-color: #c8a8da;
     }
 
+    #contacto.container{
+        max-width: 1000px;
+        min-height: 80px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-top: -5rem;
+        background-color: #0da2a5;
+        border-radius: 10px;
+    }
+
+    #contacto p{
+        padding-top: 8px;
+        font-family: 'Great Vibes', cursive;
+        font-size: 35px;
+    }
+
+    .redes{
+        justify-content: space-evenly;
+    }
+
+    #contacto button{
+        border-radius: 50px;
+        padding: 5px;
+        background-color: black;
+        margin: 5px;
+    }
+    .firma{
+        padding: 40px;
+    }
     h5{
         color:#100216;
         font-family: 'Libre Baskerville', serif;
@@ -216,4 +266,9 @@ p{
         font-family: 'Alice', serif;
         font-weight: bold;
         font-size: 2px;
+    }
+
+    h6 span{
+        font-family: 'Parisienne', cursive;
+        font-size: 22px;
     }
