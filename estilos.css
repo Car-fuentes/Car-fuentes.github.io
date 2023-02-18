@@ -15,6 +15,10 @@
     font-size: 20px !important;
 }
 
+.navbar-toggler-icon{
+    color: whitesmoke !important; 
+}
+
 /**Mi presentasión*/
 section .personal{
     display:flex;
@@ -27,9 +31,8 @@ section .personal{
     min-height:480px;
     text-align: center;
     font-family: 'Lobster', cursive;
-    background: rgb(234,210,223);
-    background: radial-gradient(circle, rgba(234,210,223,1)0%, rgba(200,168,218,1)50%, rgba(167,102,170,1)100%);
-    width:100%;
+    background: rgb(240,216,223);
+    background: radial-gradient(circle, rgba(240,216,223,1) 0%, rgba(214,194,226,1) 60%, rgba(168,159,168,1) 100%);
 }
 
 .foto{ 
@@ -50,21 +53,22 @@ section .personal{
     }
 
    section h2{
-        font-size: 28px;
         padding-bottom: 1px;
     }
 
     .subtitulo {
-        color:black;
+        color: #521643;
         font-family: 'Lobster', cursive;
+        font-size: 30px;
     }
 
-    .bienvenida{
-        color:#6b0a53;
+    h2.bienvenida{
+        color:#521643;
         font-family: 'Great Vibes', cursive;
         font-weight: bold;
         font-size: 40px;
         padding-top: 10px;
+        animation: aparecer 3s;
     }
 
 p{
@@ -72,7 +76,6 @@ p{
     font-weight: bold;
 }
     /**Mi información personal*/
-
     h3{
         font-size: 18px;
         font-family: 'Lobster', cursive;
@@ -120,7 +123,8 @@ p{
         text-decoration-color: rgb(68, 68, 68);
         text-decoration-thickness: 1px;
     }
-        /**Mis fortalezas**/
+
+    /**Mis fortalezas**/
         .fortaleza{
             text-align: center;
             padding: 40px 40px 40px 40px;
@@ -129,9 +133,9 @@ p{
     
         .fortaleza p{
             padding-right: 40px;
-            padding-left: 40px;
-    
+            padding-left: 40px; 
         }
+
         .pensamiento{
             text-align: center;
             padding: 40px 40px 40px 40px;
@@ -151,8 +155,7 @@ p{
     }
         
     #formacion .row div{
-        height: 220px;
-        
+        height: 220px;        
     }
 
     p.titulo{
@@ -173,7 +176,6 @@ p{
         color: white;
         background-color: #0d7c7e;
         border: solid 5px #67c9cb;
-
     }
 
     .formacion p{
@@ -185,14 +187,12 @@ p{
         padding: 40px 1px 40px 1px;
         text-align: center; 
         background-color:whitesmoke;
-        
     }
 
     .experiencia-contenedor{
         padding-top: 10px;
         margin-bottom: 10px;
     }
-
 
     .cada-experiencia{
         border: solid #03888f;
@@ -207,8 +207,6 @@ p{
         box-shadow: 5px 5px 10px #565656, -3px -3px 10px #8a8a8a;
     }
 
-
-
     .cada-experiencia i{
         color: #67c9cb;
         font-size: 40px;    
@@ -218,6 +216,7 @@ p{
         font-size:20px;
         font-family: 'Alice', serif;
     }
+
     /**Footer**/
     #pie{
         text-align: center;
@@ -251,9 +250,11 @@ p{
         background-color: black;
         margin: 5px;
     }
+
     .firma{
         padding: 40px;
     }
+
     h5{
         color:#100216;
         font-family: 'Libre Baskerville', serif;
@@ -272,3 +273,13 @@ p{
         font-family: 'Parisienne', cursive;
         font-size: 22px;
     }
+
+    @keyframes aparecer {
+        from{
+            transform: translateY(100%);
+        }
+        to{
+            transform: translateY(0%);
+        }
+    }
+    
