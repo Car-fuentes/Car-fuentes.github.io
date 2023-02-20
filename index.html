@@ -15,29 +15,37 @@
 </head>
 <body>
     <!--Barra de navegación-->
-    <nav class="navbar navbar-expand-lg">
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
         <div class="barra container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Presentación</a>
-              <a class="nav-link" href="#info">Información personal</a>
-              <a class="nav-link" href="#formacion">Formación profesional</a>
-              <a class="nav-link" href="#experiencia">Experiencias</a>
-              <a class="nav-link" href="#contacto">Contactame</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Presentación</a>
+                <a class="nav-link" href="#info">Información personal</a>
+                <a class="nav-link" href="#formacion">Formación profesional</a>
+                <a class="nav-link" href="#experiencia">Experiencias</a>
+                <a class="nav-link" href="#contacto">Contactame</a>
+                </div>
             </div>
-          </div>
         </div>
-      </nav>
+      </nav>              
+    </header>
     <!--Mi presentación-->
     <section class="personal container-fluid">
-        <h1>Carolina Inés Fuentes</h1>
-        <h2 class="subtitulo">Estudiante de programación</h2>
-        <img class="foto" src="imagenes/mifotito3.jpg" alt="Fuentes Carolina Inés" title="Fuentes Carolina Inés"
+        <div class="row">
+            <div class=" presentacion col-6">
+                <h1>Carolina Inés Fuentes</h1>
+                <h2 class="subtitulo">Estudiante de programación</h2>
+                <h2 class="bienvenida">¡Te doy la bienvenida a mi portfolio!</h2>
+            </div>
+        <div class="col-6">
+        <img class="foto" src="imagenes/fotin1.jpg" alt="Fuentes Carolina Inés" title="Fuentes Carolina Inés"
         class="img-fluid">
-        <h2 class="bienvenida">¡Te doy la bienvenida a mi portfolio!</h2>
+    </div>
+    </div>
     </section>
     <!--Mi información personal-->
     <section id="info" d-flex>
@@ -168,9 +176,11 @@
                         </button>
                         <button type="button"><img src="imagenes/telegram_icon.ico">
                         </button>
-                        <img src="imagenes/discord_icon.ico">
-                    <img src="imagenes/github_icon.ico">
-                    <img src="imagenes/linkedin_icon.ico">
+                        <button><img src="imagenes/discord_icon.ico">
+                        </button>
+                        <button><img src="imagenes/github_gris.ico">
+                        </button>
+                        <button><img src="imagenes/linkedin_icon.ico"></button>
                         <a href="mailto:carolinainesfuentes@gmail.com">
                             <button type="button">
                                 <img src="imagenes/gmail_icon.ico">

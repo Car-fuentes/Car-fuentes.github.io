@@ -1,5 +1,8 @@
+header{
+    position: fixed;
+}
 .navbar{
-    background-color: #35244d;
+    background-color: #ca3f4a;
 }
 
 .navbar-collapse {
@@ -30,25 +33,27 @@ section .personal{
 .personal{
     min-height:480px;
     text-align: center;
+    padding-top: 100px;
     font-family: 'Lobster', cursive;
-    background: rgb(240,216,223);
-    background: radial-gradient(circle, rgba(240,216,223,1) 0%, rgba(214,194,226,1) 60%, rgba(168,159,168,1) 100%);
+    background: rgb(215,212,206);
+    background: linear-gradient(0deg, rgba(215,212,206,1) 0%, rgba(185,181,174,1) 100%);
+    padding-left: 80px;
 }
 
 .foto{ 
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: solid;
-    box-shadow: 5px 5px 5px #c2a3cd;
+    box-shadow: 5px 5px 5px #abaaaf;
     margin: 20px;
     }
 
    section h1{
         color: black;
-        font-family: 'Great Vibes', cursive;
+        font-family: 'Libre Baskerville', serif;
         font-weight: bold;
-        font-size: 55px;
+        font-size: 45px;
         padding-top: 60px;
     }
 
@@ -57,18 +62,17 @@ section .personal{
     }
 
     .subtitulo {
-        color: #521643;
-        font-family: 'Lobster', cursive;
-        font-size: 30px;
+        color: black;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 28px;
     }
 
     h2.bienvenida{
-        color:#521643;
         font-family: 'Great Vibes', cursive;
         font-weight: bold;
         font-size: 40px;
-        padding-top: 10px;
-        animation: aparecer 3s;
+        padding-top: 30px;
+        animation: aparecer 10s forwards;
     }
 
 p{
@@ -111,7 +115,7 @@ p{
     
     #info i{
         font-size: 2rem;
-        color:#a3107e;  
+        color:#fb8176;  
         padding-top: 15px;      
     }
 
@@ -136,6 +140,9 @@ p{
             padding-left: 40px; 
         }
 
+        #listado span{
+            font-weight: bold;
+        }
         .pensamiento{
             text-align: center;
             padding: 40px 40px 40px 40px;
@@ -276,10 +283,10 @@ p{
 
     @keyframes aparecer {
         from{
-            transform: translateY(100%);
+            color: trasnparent;
         }
         to{
-            transform: translateY(0%);
+            color: #c93642;    
         }
     }
     
