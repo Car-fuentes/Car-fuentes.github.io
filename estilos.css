@@ -1,3 +1,4 @@
+/**Barra de navegación*/
 .navbar{
     background-color: #ca3f4a;
 }
@@ -9,21 +10,17 @@
 
 .nav-link{
     text-decoration:none;
-    color: whitesmoke !important; 
+    color: whitesmoke !important;
     margin: 1rem, 5rem, 1rem, 5rem;
     font-family: 'Alice', serif;
     font-size: 20px !important;
 }
 
-.navbar-toggler-icon{
-    color: whitesmoke !important; 
-}
-
 /**Mi presentasión*/
 section .personal{
     display: flex;
-
 }
+
 .personal{
     min-height:400px;
     padding-top: 40px;
@@ -33,6 +30,12 @@ section .personal{
     background: linear-gradient(0deg, rgba(215,212,206,1) 0%, rgba(185,181,174,1) 100%);
 }
 
+.contenedor-foto{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
 .foto{ 
     width: 280px;
     height: 280px;
@@ -40,7 +43,7 @@ section .personal{
     border: solid;
     box-shadow: 5px 5px 5px #abaaaf;
     justify-content: center;
-    margin-left: 60px;
+    margin-right: 220px;
     }
 
    section h1{
@@ -55,7 +58,7 @@ section .personal{
         padding-bottom: 1px;
     }
 
-    .subtitulo {
+    .subtitulo{
         color: black;
         font-family: 'Libre Baskerville', serif;
         font-size: 28px;
@@ -73,6 +76,7 @@ p{
     font-family: 'Lora', serif;
     font-weight: bold;
 }
+
     /**Mi información personal*/
     h3{
         font-size: 18px;
@@ -88,31 +92,35 @@ p{
         justify-content: center;
         padding: 40px;
         flex-direction: column;   
-        text-align: center;   
-        background-color:#b3c4ba;
+        text-align: center; 
+        background: #b3c4ba;
         }
 
     #info .row div{
         height: 100px;
-        background-color: white;
-        border: solid black 1px;
+        background: rgb(253,253,253);
+        background: linear-gradient(90deg, rgba(253,253,253,1) 0%, rgba(255,255,255,1) 50%, rgba(253,253,253,1) 100%);
+        border: solid #8a9597 2px;
         margin-top: 20px;
+        border-radius: 20px;
         }
 
     #info p{
         font-size: 15px;
         margin: 10px 0px;
         color: black;    
-        padding: 5px 2px 5px 2px;
         font-family: 'Lora', serif;
+        text-align: center;
+        /*padding: 5px 2px 5px 2px;*/
     }
     
     #info i{
         font-size: 2rem;
-        color:#fb8176;  
-        padding-top: 15px;      
+        color: #ca3f4a; /* el coral  mas claro original #fb8176 ;lila oscuro #ae7ec9;#0da2a5;  c398db lila*/
+        padding-top: 15px; 
     }
-
+    
+/**Fortalezas y pensamientos*/
     h4{
         font-size: 12px;
         font-family: 'Lobster', cursive;
@@ -122,7 +130,6 @@ p{
         text-decoration-thickness: 1px;
     }
 
-    /**Mis fortalezas**/
         .fortaleza{
             text-align: center;
             padding: 40px 40px 40px 40px;
@@ -134,9 +141,6 @@ p{
             padding-left: 40px; 
         }
 
-        #listado span{
-            font-weight: bold;
-        }
         .pensamiento{
             text-align: center;
             padding: 40px 40px 40px 40px;
@@ -149,14 +153,15 @@ p{
         }
 
     /**Mi formación profesional*/
-
     #formacion{
         padding: 50px 5px 50px 5px;
         text-align: center;
+        background: rgb(253,253,253);
+        background: linear-gradient(90deg, rgba(253,253,253,1) 0%, rgba(255,255,255,1) 50%, rgba(253,253,253,1) 100%);  
     }
         
     #formacion .row div{
-        height: 220px;        
+        height: 220px;  
     }
 
     p.titulo{
@@ -166,17 +171,16 @@ p{
     }
 
     .paquete{
-        border: solid 5px rgba(167,102,170,1);
-        background-color: #f7ebf5;
+        border: solid 3px #a8a8a8;
+        background-color: #f8f8f8;
         padding: 30px 10px 5px 10px;
         transition: all 0.2s ease-in;
-        border-radius: 2%;
+        border-radius: 10px;
     }
 
     .paquete:hover{
-        color: white;
-        background-color: #0d7c7e;
-        border: solid 5px #67c9cb;
+        background-color: #c8a8da;        
+        border: solid 2px #b767e2;
     }
 
     .formacion p{
@@ -275,7 +279,7 @@ p{
             color: transparent;
         }
         to{
-            color: #8b1822;    
+            color: #8b1822;  
         }
     }
     
@@ -289,6 +293,6 @@ p{
         .foto{
             width:150px;
             height:150px;
-            margin-left: 30px;
+            margin-right: 10px;
         };
-    };
+    }
