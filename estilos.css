@@ -50,7 +50,7 @@ section .personal{
         color: black;
         font-family: 'Great Vibes', cursive;
         font-weight: bold;
-        font-size: 55px;
+        font-size: 66px;
         padding-top: 60px;
     }
 
@@ -61,7 +61,7 @@ section .personal{
     .subtitulo{
         color: black;
         font-family: 'Libre Baskerville', serif;
-        font-size: 28px;
+        font-size: 23px;
     }
 
     h2.bienvenida{
@@ -100,10 +100,17 @@ p{
         height: 100px;
         background: rgb(253,253,253);
         background: linear-gradient(90deg, rgba(253,253,253,1) 0%, rgba(255,255,255,1) 50%, rgba(253,253,253,1) 100%);
-        border: solid #8a9597 2px;
+        border: solid 2px #67c9cb; /**#8a9597 */
         margin-top: 20px;
         border-radius: 20px;
         }
+ 
+    #info button{
+        border-radius: 50%;
+        border: whitesmoke;/**solid 2px #0da2a5;/** #0da2a5;*/
+        background-color: white;
+        margin-top: 5px;
+    }
 
     #info p{
         font-size: 15px;
@@ -111,12 +118,12 @@ p{
         color: black;    
         font-family: 'Lora', serif;
         text-align: center;
-        /*padding: 5px 2px 5px 2px;*/
+        
     }
     
     #info i{
         font-size: 2rem;
-        color: #ca3f4a; /* el coral  mas claro original #fb8176 ;lila oscuro #ae7ec9;#0da2a5;  c398db lila*/
+        color: #da5964;/**#ca3f4a;**/ 
         padding-top: 15px; 
     }
     
@@ -273,7 +280,7 @@ p{
         }
         to{
             color: #8b1822;  
-        }
+        };
     }
     
     @media screen and (max-width: 767px){
@@ -289,3 +296,17 @@ p{
             margin-right: 10px;
         };
     }
+
+    @media screen and (max-width: 320px){
+        #e-mail{
+            font-size: 11px! important;
+        };
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1032px){
+        #e-mail{
+            font-size: 14px! important;
+        };
+    }
+
+
