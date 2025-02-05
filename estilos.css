@@ -1,6 +1,40 @@
+
+
+:root{
+    --color-a: #1d3461;
+    --color-b: #eeb868;
+    --color-c: #4ecdc4;
+    --color-d: #bee3db;
+    --color-e: #f6f6f6;
+    --color-i: #e4e4e4;
+    --color-j: #edeeea;
+    --color-k: #f2f0ec;
+    --color-f: #d81e5b;
+    --color-g: #da5964;
+    --color-h: #F7A278;
+
+    --fuente-libre:'Libre Baskerville', serif;
+    --fuente-titulo: 'Great Vibes', cursive;
+    --fuente-lora: 'Lora', serif;  
+    
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fuente-libre);
+}
+
 /**Barra de navegación*/
+
 .navbar{
-    background-color: #ca3f4a;
+    background-color: var(--color-a);  /*#ca3f4a;*/
 }
 
 .navbar-collapse {
@@ -10,10 +44,11 @@
 
 .nav-link{
     text-decoration:none;
-    color: whitesmoke !important;
-    margin: 1rem, 5rem, 1rem, 5rem;
-    font-family: 'Alice', serif;
-    font-size: 20px !important;
+    color: var(--color-e) !important;
+    margin: 3rem, 5rem !important;;
+    font-size: 1.8rem !important;
+    font-family: var(--fuente-libre);
+    padding: 1.2rem !important;
 }
 
 /**Mi presentasión*/
@@ -23,11 +58,10 @@ section .personal{
 
 .personal{
     min-height:400px;
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom:30px;
-    font-family: 'Lobster', cursive;
-    background: rgb(215,212,206);
-    background: linear-gradient(0deg, rgba(215,212,206,1) 0%, rgba(185,181,174,1) 100%);
+    background: var(--color-k);
+    /*background-color: linear-gradient(180deg, rgba(242,240,236,1) 2%, rgba(246,246,246,1) 50%);*/
 }
 
 .contenedor-foto{
@@ -46,11 +80,11 @@ section .personal{
     margin-right: 220px;
     }
 
-   section h1{
+   .presentacion__nombre{
         color: black;
-        font-family: 'Great Vibes', cursive;
+        font-family: var(--fuente-titulo) ;
         font-weight: bold;
-        font-size: 66px;
+        font-size: 7rem;
         padding-top: 60px;
     }
 
@@ -58,17 +92,17 @@ section .personal{
         padding-bottom: 1px;
     }
 
-    .subtitulo{
+    .presentacion__subtitulo{
         color: black;
-        font-family: 'Libre Baskerville', serif;
-        font-size: 23px;
+        font-family: var(--fuente-libre) ;
+        font-size: 2.4rem;
     }
 
-    h2.bienvenida{
-        font-family: 'Great Vibes', cursive;
+    .presentacion__bienvenida{
+        font-family: var(--fuente-libre);
         font-weight: bold;
-        font-size: 40px;
-        padding-top: 30px;
+        font-size: 2.4rem;
+        padding: 50px;
         animation: aparecer 8s forwards;
     }
 
@@ -78,13 +112,13 @@ p{
 }
 
     /**Mi información personal*/
-    h3{
-        font-size: 18px;
-        font-family: 'Lobster', cursive;
-        padding-bottom: 20px;
-        text-decoration: underline;
+    .subtitulo{
+        font-size: 2.8rem;
+        font-family: var(--fuente-libre );
+        padding: 50px;
+       /* text-decoration: underline;
         text-decoration-color: rgb(68, 68, 68);
-        text-decoration-thickness: 2px;
+        text-decoration-thickness: 1px;*/
     }
 
     #info{
@@ -93,54 +127,40 @@ p{
         padding: 40px;
         flex-direction: column;   
         text-align: center; 
-        background: #b3c4ba;
+        background-color: var(--color-i);
+        background: #f3f1ed;
+        background: linear-gradient(180deg, rgba(242,240,236,1) 3%, rgb(237, 234, 234) 22%, rgba(228,228,228,1) 60%);
         }
 
-    #info .row div{
-        height: 100px;
-        background: rgb(253,253,253);
-        background: linear-gradient(90deg, rgba(253,253,253,1) 0%, rgba(255,255,255,1) 50%, rgba(253,253,253,1) 100%);
-        border: solid 2px #67c9cb; /**#8a9597 */
-        margin-top: 20px;
-        border-radius: 20px;
-        }
- 
     #info button{
         border-radius: 50%;
-        border: whitesmoke;/**solid 2px #0da2a5;/** #0da2a5;*/
-        background-color: white;
-        margin-top: 5px;
+        border:var(--color-i);
+        background-color: var(--color-i);
+        margin-top: 20px;
     }
 
-    #info p{
-        font-size: 15px;
+    p{
+        font-size: 1.6rem;
         margin: 10px 0px;
         color: black;    
-        font-family: 'Lora', serif;
+        font-family: var(--fuente-libre );
         text-align: center;
         
     }
     
     #info i{
-        font-size: 2rem;
-        color: #da5964;/**#ca3f4a;**/ 
+        font-size: 3rem;
+        color: var(--color-f); 
         padding-top: 15px; 
     }
     
 /**Fortalezas y pensamientos*/
-    h4{
-        font-size: 12px;
-        font-family: 'Lobster', cursive;
-        padding-bottom: 20px;
-        text-decoration: underline;
-        text-decoration-color: rgb(68, 68, 68);
-        text-decoration-thickness: 1px;
-    }
+
 
         .fortaleza{
             text-align: center;
             padding: 40px 40px 40px 40px;
-            background-color: #ccd3cf;        
+            background-color: var(--color-j);        
         }
     
         .fortaleza p{
@@ -151,7 +171,7 @@ p{
         .pensamiento{
             text-align: center;
             padding: 40px 40px 40px 40px;
-            background-color: #e4e4e4;
+            background-color: var(--color-k);
         }
     
         .pensamiento p{
@@ -174,20 +194,20 @@ p{
     p.titulo{
         font-weight: bold;
         font-size: 20px;
-        font-family: 'Alice', serif;
+        font-family: var(--fuente-libre)
     }
 
     .paquete{
         border: solid 3px #a8a8a8;
-        background-color: #f8f8f8;
+        background-color: var(--color-e);
         padding: 30px 10px 5px 10px;
         transition: all 0.2s ease-in;
         border-radius: 10px;
     }
 
     .paquete:hover{
-        background-color: #c8a8da;        
-        border: solid 2px #b767e2;
+        background-color: var(--color-i);        
+        border: solid 2px var(--color-j);
     }
 
     .formacion p{
@@ -198,7 +218,7 @@ p{
     .experiencias{
         padding: 40px 1px 40px 1px;
         text-align: center; 
-        background-color:whitesmoke;
+        background-color: var(--color-k);
     }
 
     .experiencia-contenedor{
@@ -226,14 +246,13 @@ p{
 
     p.actividad{
         font-size:20px;
-        font-family: 'Alice', serif;
     }
 
     /**Footer**/
     #pie{
         text-align: center;
         padding: 40px 5px 5px 5px;
-        background-color: #c8a8da;
+        background-color: var(--color-a)/*#c8a8da*/;
     }
 
     #contacto.container{
@@ -242,13 +261,13 @@ p{
         padding-top: 20px;
         padding-bottom: 10px;
         margin-top: -5rem;
-        background-color: #0da2a5;
+        background-color: var(--color-i)/*#0da2a5*/;
         border-radius: 10px;
     }
 
     #contacto p{
         padding-top: 8px;
-        font-family: 'Great Vibes', cursive;
+        font-family: var(--fuente-titulo);
         font-size: 35px;
     }
 
@@ -259,13 +278,17 @@ p{
 
     .firma{
         padding: 40px;
+        color: var(--color-e);
     }
 
     h5{
         color:#100216;
-        font-family: 'Libre Baskerville', serif;
         font-weight: bold;
         font-size: 2px;
+    }
+
+    h6{
+        color: var(--color-e);
     }
 
     h6 span{
@@ -279,7 +302,7 @@ p{
             color: transparent;
         }
         to{
-            color: #8b1822;  
+            color: var(--color-a);  
         };
     }
     

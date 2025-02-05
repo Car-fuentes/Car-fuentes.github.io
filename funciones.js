@@ -14,18 +14,18 @@ text += "</ul>";
 
 document.getElementById("listado").innerHTML = text;
 
-document.getElementById("nombreOculto").onclick = function(){
-  document.getElementById("nombre").innerHTML = "Fuentes Carolina Inés";
+document.getElementById("info__nombreOculto").onclick = function(){
+  document.getElementById("info__nombre").innerHTML = "Fuentes Carolina Inés";
 }
 
-document.getElementById("celular").onclick = function(){
-  document.getElementById("celu").innerHTML = "+54 11 34172056";
+document.getElementById("info__celular").onclick = function(){
+  document.getElementById("info__celu").innerHTML = "+54 11 34172056";
 }
 
-document.getElementById("mail").onclick = function(){
-  document.getElementById("e-mail").innerHTML = "carolinainesfuentes@gmail.com";
+document.getElementById("info__mail").onclick = function(){
+  document.getElementById("info__e-mail").innerHTML = "carolinainesfuentes@gmail.com";
 }
 
-document.getElementById("lugar").onclick = function(){
-  document.getElementById("ubicacion").innerHTML = "Lomas de Zamora, Bs. As.";
+document.getElementById("info__lugar").onclick = function(){
+  document.getElementById("info__ubicacion").innerHTML = "Lomas de Zamora, Bs. As.";
 }
