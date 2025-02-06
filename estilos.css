@@ -2,7 +2,6 @@
 
 :root{
     --color-a: #1d3461;
-    --color-b: #eeb868;
     --color-c: #4ecdc4;
     --color-d: #bee3db;
     --color-e: #f6f6f6;
@@ -10,7 +9,6 @@
     --color-j: #edeeea;
     --color-k: #f2f0ec;
     --color-f: #d81e5b;
-    --color-g: #da5964;
     --color-h: #F7A278;
 
     --fuente-libre:'Libre Baskerville', serif;
@@ -34,8 +32,10 @@ html{
 /**Barra de navegación*/
 
 .navbar{
-    background-color: var(--color-a);  /*#ca3f4a;*/
+    background-color: var(--color-a);
+    padding: 1.8rem !important;
 }
+
 
 .navbar-collapse {
     align-items: center;
@@ -45,10 +45,10 @@ html{
 .nav-link{
     text-decoration:none;
     color: var(--color-e) !important;
-    margin: 3rem, 5rem !important;;
+    margin: 5rem, 5rem !important;;
     font-size: 1.8rem !important;
     font-family: var(--fuente-libre);
-    padding: 1.2rem !important;
+    padding: 1.6rem !important;
 }
 
 /**Mi presentasión*/
@@ -62,6 +62,8 @@ section .personal{
     padding-bottom:30px;
     background: var(--color-k);
     /*background-color: linear-gradient(180deg, rgba(242,240,236,1) 2%, rgba(246,246,246,1) 50%);*/
+    margin-bottom: 3rem;
+    border: solid black; 
 }
 
 .contenedor-foto{
@@ -74,8 +76,8 @@ section .personal{
     width: 280px;
     height: 280px;
     border-radius: 50%;
-    border: solid;
-    box-shadow: 5px 5px 5px #abaaaf;
+    border: solid black 3px;
+    /*box-shadow: 5px 5px 10px var(--color-i);*/
     justify-content: center;
     margin-right: 220px;
     }
@@ -106,11 +108,6 @@ section .personal{
         animation: aparecer 8s forwards;
     }
 
-p{
-    font-family: 'Lora', serif;
-    font-weight: bold;
-}
-
     /**Mi información personal*/
     .subtitulo{
         font-size: 2.8rem;
@@ -130,6 +127,7 @@ p{
         background-color: var(--color-i);
         background: #f3f1ed;
         background: linear-gradient(180deg, rgba(242,240,236,1) 3%, rgb(237, 234, 234) 22%, rgba(228,228,228,1) 60%);
+        border: solid black; 
         }
 
     #info button{
@@ -150,17 +148,19 @@ p{
     
     #info i{
         font-size: 3rem;
-        color: var(--color-f); 
+        color: var(--color-a); 
         padding-top: 15px; 
     }
     
 /**Fortalezas y pensamientos*/
 
 
-        .fortaleza{
+        .container__fortaleza{
             text-align: center;
             padding: 40px 40px 40px 40px;
-            background-color: var(--color-j);        
+            background-color: var(--color-i);   
+            margin: 3rem;
+            border: solid black;     
         }
     
         .fortaleza p{
@@ -171,7 +171,13 @@ p{
         .pensamiento{
             text-align: center;
             padding: 40px 40px 40px 40px;
-            background-color: var(--color-k);
+            background: #f3f1ed;
+            background: linear-gradient(180deg, rgba(228,228,228,1) 3%, rgb(237, 234, 234) 20%, #f2f0ec 55%);
+
+            /*background: linear-gradient(180deg, rgba(242,240,236,1) 3%, rgb(237, 234, 234) 22%, rgba(228,228,228,1) 60%)
+            /*background-color: var(--color-i);*/
+            margin: 3rem;
+            border: solid black;     
         }
     
         .pensamiento p{
@@ -245,7 +251,7 @@ p{
     }
 
     p.actividad{
-        font-size:20px;
+        font-size:2rem;
     }
 
     /**Footer**/
@@ -261,7 +267,7 @@ p{
         padding-top: 20px;
         padding-bottom: 10px;
         margin-top: -5rem;
-        background-color: var(--color-i)/*#0da2a5*/;
+        background-color: var(--color-k)/*#0da2a5*/;
         border-radius: 10px;
     }
 
@@ -269,6 +275,7 @@ p{
         padding-top: 8px;
         font-family: var(--fuente-titulo);
         font-size: 35px;
+        font-weight: 600;
     }
 
     #contacto a{
