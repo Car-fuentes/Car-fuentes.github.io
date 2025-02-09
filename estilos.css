@@ -274,7 +274,7 @@ section .personal{
     #contacto p{
         padding-top: 8px;
         font-family: var(--fuente-titulo);
-        font-size: 35px;
+        font-size: 3.6rem;
         font-weight: 600;
     }
 
